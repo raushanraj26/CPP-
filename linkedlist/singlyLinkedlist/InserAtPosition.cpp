@@ -38,11 +38,16 @@ void insertatPosition(node* &head,int position,int d){
 
         insertatHead(head,d);
     }
+    node * temp=head;
+    //position is last
+    if(temp->next==NULL){
+        insertatEnd(tail,d);
+    }
 
        
-        node * temp=head;
+        
                               //    temp pointer is used for traversing
-        for(int i=1;i<position-1;i++){
+        for(int i=1;i<position;i++){
             temp=temp->next;
         }
         // new node create

@@ -1,4 +1,4 @@
-// kisi node ko delete krne se pahlke uss node ka next pointer ko  NULL kro phir delete hoga.
+ // kisi node ko delete krne se pahlke uss node ka next pointer ko  NULL kro phir delete hoga.
 // isiliye null krte hai ki wo node kisi ko poin t nii kre 
 #include<iostream>  
 using namespace std;

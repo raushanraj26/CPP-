@@ -6,6 +6,7 @@
 #include<iostream>
 using namespace std;
 
+//from left to right
  void lastOcc(string str,int i,int ch,int& ans,int n)
  {
     if(i>=n)
@@ -58,10 +59,10 @@ int n=str.size();
 int ans=-1;
 lastOcc(str,i,ch,ans,n);
 cout<<"when traverese left to right then Index is: "<<ans<<endl;
-cout<<"when traverese right to left then Index is: "<<ans<<endl;
+
 
 lastOccRtoL(str,i,ch,ans,n);
-
+cout<<"when traverese right to left then Index is: "<<ans<<endl;
 
 
     return 0;
